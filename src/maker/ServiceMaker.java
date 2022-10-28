@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
 
-import static com.automation.jipstart.maker.JipConstant.GenericImportService;
+import static maker.JipConstant.GenericImportService;
 
 
 public class ServiceMaker extends JavaWriterClass {
