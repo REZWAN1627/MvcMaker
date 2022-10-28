@@ -1,4 +1,4 @@
-package com.automation.jipstart.maker;
+package maker;
 
 import java.util.List;
 import java.util.Map;

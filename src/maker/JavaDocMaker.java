@@ -1,4 +1,4 @@
-package com.automation.jipstart.maker;
+package maker;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

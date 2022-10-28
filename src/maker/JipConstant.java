@@ -1,4 +1,4 @@
-package com.automation.jipstart.maker;
+package maker;
 
 import java.util.ArrayList;
 import java.util.HashMap;

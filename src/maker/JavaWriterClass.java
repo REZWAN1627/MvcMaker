@@ -1,4 +1,4 @@
-package com.automation.jipstart.maker;
+package maker;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -11,7 +11,7 @@ public class JavaWriterClass {
             FileWriter myWriter = new FileWriter(directoryPAth + className + classType + ".java");
             myWriter.write(stringBuilder.toString());
             myWriter.close();
-            System.out.println("Successfully wrote to the file.");
+            System.out.println("Successfully wrote to the "+className+classType);
         } catch (IOException e) {
             System.out.println("An error occurred.");
             e.printStackTrace();

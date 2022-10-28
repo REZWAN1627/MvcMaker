@@ -1,4 +1,4 @@
-package com.automation.jipstart.maker;
+package maker;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

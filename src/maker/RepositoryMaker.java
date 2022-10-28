@@ -1,4 +1,4 @@
-package com.automation.jipstart.maker;
+package maker;
 
 public class RepositoryMaker extends JavaWriterClass {
 
