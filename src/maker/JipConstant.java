@@ -40,29 +40,29 @@ public class JipConstant {
     };
 
     public static final String[] GenericImportService = {
-            "import com.flightschedule.common.generic.service.AbstractSearchService;",
+            "import com.us_bangla.fair_comparison.common.generic.service.AbstractSearchService;",
             "import org.springframework.data.jpa.domain.Specification;",
             "import org.springframework.stereotype.Service;",
-            "import com.flightschedule.common.generic.specification.CustomSpecification;"
+            "import com.us_bangla.fair_comparison.common.generic.specification.CustomSpecification;"
 
     };
     public static final String[] GenericImportController = {
-            "import com.flightschedule.common.generic.controller.AbstractSearchController;",
+            "import com.us_bangla.fair_comparison.common.generic.controller.AbstractSearchController;",
             "import org.springframework.web.bind.annotation.RequestMapping;",
             "import org.springframework.web.bind.annotation.RestController;"
 
     };
 
-    public static final String IdQ = "import com.flightschedule.common.generic.payload.seatch.IdQuerySearchDto;";
+    public static final String IdQ = "import com.us_bangla.fair_comparison.common.generic.payload.seatch.IdQuerySearchDto;";
 
     public static final String repositoryImport =
             "import org.springframework.stereotype.Repository;";
 
-    public static final String IDto = "import com.automation.jipstart.IDto;";
+    public static final String IDto = "import com.us_bangla.fair_comparison.common.generic.payload.marker.IDto;";
     public static final List<String> otherImport = new ArrayList<>();
 
     public static final Map<String, String> mvcDirectoryPath = new HashMap<>();
     public static final Map<String, String> packageImport = new HashMap<>();
-    public static final String abstractRepoImport = "import com.automation.jipstart.test.repository.AbstractRepository;";
-    public static final String abstractIQDto = "import com.flightschedule.common.generic.payload.seatch.IdQuerySearchDto;";
+    public static final String abstractRepoImport = "import com.us_bangla.fair_comparison.common.generic.repository.AbstractRepository;";
+    public static final String abstractIQDto = "import com.us_bangla.fair_comparison.common.generic.payload.seatch.IdQuerySearchDto;";
 }

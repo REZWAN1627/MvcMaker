@@ -4,7 +4,7 @@ import java.lang.reflect.Field;
 import java.util.List;
 import java.util.Map;
 
-import static maker.JipConstant.GenericImportService;
+import static com.us_bangla.fair_comparison.maker.JipConstant.GenericImportService;
 
 
 public class ServiceMaker extends JavaWriterClass {
